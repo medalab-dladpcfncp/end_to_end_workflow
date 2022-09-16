@@ -70,7 +70,7 @@ tested on NVIDIA DGX-Station V100 32G with 256GB RAM and 4 V100 GPUs.
 
 ## Evaluation
 
-The evaluation workflow is also defined in `config/config_test.json`, by default the evaluation workflow
+The evaluation workflow is defined in `config/config_test.json`, by default the evaluation workflow
 will compute the average Dice score of both pancreas and tumor on the `testing` split. In this case the
 `label` key must exist in the `data_list` JSON file.
 
